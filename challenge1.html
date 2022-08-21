@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📜Contact Form📜</title>
+    <style>
+        body{
+            background: linear-gradient(to top left, #28b487, #7dd56f);
+        }
+        
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+        }
+        td{
+            padding: 8px;
+           
+        }
+        tr:hover {background-color: #b8eaaa;}
+    </style>
+</head>
+<body >
+    <h1 style="text-align: center;"> 📜 Personal Contact Form 📜 </h1>
+    <form action="fsdclass.html" method="get">
+        <table style="background-color: #ffffff ;border:2px rgb(3, 87, 27) solid; ">
+            <tbody>
+                <tr >
+                    <td><label for="fnmame"><b> First Name</b></label></td>
+                <td><input type="text" id="fname" name="fname" placeholder="Mahesh Reddy" autofocus></td>
+                </tr>
+                <tr>
+                  <td><label for="lnmame"> <b> Last Name</b></label></td>
+                   <td><input type="text" id="lname" name="lname" placeholder="Peddi Reddy"></td>
+                </tr>
+                <tr>
+                    <td><label for="dob"><b>Date of birth</ssb></label></td>
+                    <td><input type="date" name="dob" id="dob"></td>
+                </tr>
+                <tr>
+                    <td> <label for="age"><b>👴 Age</b></label></td>
+                    <td><input type="number" name="age" id="age" placeholder="22" step="2"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone"><b>☎️ Phone</b></label></td>
+                    <td><input type="" name="phone" id="phone"  placeholder="9963144077" pattern="[0-9]{10}"></td>
+                </tr>
+                <tr>
+                    <td><label for="email"><b>📧 Email</b></label></td>
+                    <td><input type="email" name="email" id="email" placeholder="mahesh123@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender"><b>👩🏻‍🤝‍👨🏻Gender</b></label></td>
+                    <td><input type="radio" name="gender" id="male">Male
+                    <input type="radio" name="gender" id="female">Female </td>
+                </tr>
+                <tr>
+                    <td> <label for="edu"><b>🎓Education</b></label></td>
+                    <td><select name="edu" id="edu">
+                        <option value="1">B-tech</option>
+                        <option value="1">M-tech</option>
+                        <option value="1">B-Com</option>
+                        <option value="1">Diploma</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="hobi"><b>🏀Sports</b></label></td>
+                    <td><input list="hobi">
+                    <datalist id="hobi">
+                        <option value="🏏Cricket"></option>
+                        <option value="⚽Football"></option>
+                        <option value="🏐Volleyball"></option>
+                        <option value="🏸Badminton"></option>
+                    </datalist></td>
+                </tr>
+                <tr c>
+                    <td colspan="2"><h3>Please Mark Your Capability💪💪</h3></td>
+                </tr>
+                <tr>
+                    <td><label for="html"><b>HTML</b></label></td>
+                    <td><input type="range" name="html" id="html"></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="css"><b>CSS</b></label></td>
+                    <td><input type="range" name="css" id="css"></td>
+                </tr>
+                <tr>
+                    <td><label for="js"><b>JavaScript</b></label></td>
+                    <td><input type="range" name="js" id="js"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="About"><h3>👇 About Your Self 👇</h3></label>
+                        <textarea name="about" id="about" cols="40" rows="5" placeholder="Im very motivated individual with high Aspirations......."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox"> <b>I aceept all Conditions</b></td>
+                </tr>
+                <tr>
+                    <td><input type="Reset"></td>
+                    <td style="text-align:right"><input type="Submit"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    
+</body>
+</html>
